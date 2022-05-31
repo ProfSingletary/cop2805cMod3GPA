@@ -1,7 +1,7 @@
 # cop2805cMod3GPA
 # COP2805C Module 3 Graded Programming Assignment
 
-Write a multi-threaded Java program named "EchoMachine" which prompts the user for a sentence, a time increment in seconds, and a number of repetitions. The program should split the sentence into separate words and spawn one thread for each word which echoes the word for the specified number of increments, repeated for the specified number of repetitions. Use a "join" statement in your main method which joins each thread to verify they have exited before exiting your main method.
+Write a multi-threaded Java program named "EchoMachine" which prompts the user for a sentence, a time increment in seconds, and a number of repetitions. The program should split the sentence into separate words and spawn one thread for each word which echoes the word, sleeps for the specified time increment in seconds, and repeats the process for the specified number of repetitions. Use a "join" statement in your main method which joins each thread to verify they have exited before exiting your main method.
 
 Hints:
 
