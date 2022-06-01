@@ -6,7 +6,7 @@ Write a multi-threaded Java program named "EchoMachine" which prompts the user f
 Hints:
 
 - The "split" method in the String class will split a sentence into an array of Strings consisting of the words.
-- For example, given String s = "This is a test"; calling s.split("\\s") will return an array of Strings containing "This", "is", "a", "test".
+- For example, given String s = "This is a test"; calling s.split("\\\s") will return an array of Strings containing "This", "is", "a", "test".
 - Define a class which extends the Thread class so you can store the word associated with that thread.
 - Define a member variable in that class which stores a single word, which can be passed via the constructor.
 - Override the run method in your extended class to perform the echo/delay/repeat operations.
